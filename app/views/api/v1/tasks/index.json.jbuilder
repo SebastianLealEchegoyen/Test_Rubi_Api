@@ -1,0 +1,1 @@
+json.tasks @tasks, :id, :name, :dueDate, :completed
