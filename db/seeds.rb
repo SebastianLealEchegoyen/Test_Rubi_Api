@@ -10,3 +10,7 @@ Task.delete_all
 Task.create([{name: 'Crear una API',dueDate: '2020-10-23 15:21:07', completed: 'true'},
              {name: 'Escapar de Neto',dueDate: '2020-05-04 15:21:07', completed: 'false'},
              {name: 'La vida',dueDate: '2020-12-13 15:21:07', completed: 'false'}])
+
+User.delete_all
+User.create([{name: 'Sebas@gmail.com',password: 'lucina', isAdmin: 'true'},
+             {name: 'Max@gmail.com',password: 'loli12', isAdmin: 'false'} ,])

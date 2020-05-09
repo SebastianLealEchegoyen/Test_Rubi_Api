@@ -1,0 +1,1 @@
+json.tasks @users, :id, :name, :password, :isAdmin
