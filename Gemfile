@@ -24,7 +24,6 @@ gem 'bootsnap', '>= 1.4.2', require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
-# Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 #JWT
 gem 'jwt'
@@ -41,6 +40,7 @@ end
 group :production do
   gem 'pg'
   gem 'rails_12factor'
+
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
